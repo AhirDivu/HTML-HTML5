@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title></title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  
+    <style>
+        {box-sizing: border-box;}
+
+body
+{
+   background-color: black; 
+}
+.main{
+
+    height: 100px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    margin-top:200px;
+    margin-left: 550px;
+    position: absolute;
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: #a0a0a0;
+    font-size: 18px;
+    padding: 0 10px;
+}
+a:after{
+    content: "";
+    position: absolute;
+    background: linear-gradient(to right,#fd004c, #fe9000,#fff020,#3edf4b, #3363ff, #b102b7);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover{
+    color: #ffffff;
+}
+a:hover:after{
+    width: 100%;
+}
+
+ </style>
+
+</head>
+<body> 
+
+    
+    <div class="main">     
+        <a href="home">Home</a>
+        <a href="Services">Services</a>
+        <a href="Contact">Contact</a>
+        <a href="About">About</a>
+
+
+    </div>
+    <div class="b"></div>
+ 
+</body>
+</html>
